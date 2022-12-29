@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+
+    <style>
+        body{
+
+            background-color: black;
+            font-family: arial;
+            display: grid;
+            place-items: center;
+        }
+
+        .container{
+
+            margin: 200px;
+            display: grid;
+            place-items: center;
+        }
+
+        .btn{
+
+            padding: 10px 30px;
+            background-color: rgb(2, 253, 203);
+            border-radius: 30px;
+            font-size: 2rem;
+            
+        }
+
+        .btn:hover{
+
+            background-color: cadetblue;
+        }
+
+        h2{
+
+            color: rgb(2, 253, 203);
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button class="btn">VIEW WEATHER</button>
+        <h2 class="loc"></h2>
+        <h2 class="weath"></h2>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
